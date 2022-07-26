@@ -1,0 +1,10 @@
+.menu__lista{
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .menu__lista{
+        flex-direction: column;
+        text-align: center;
+    }
+}

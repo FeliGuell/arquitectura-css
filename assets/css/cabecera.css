@@ -1,0 +1,15 @@
+
+.cabecera{
+    align-items: center;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+@media screen and (max-width: 768px){
+    .cabecera{
+        justify-content: center;
+    }
+}
